@@ -1,0 +1,7 @@
+/*
+ * nubia overrides dts
+ */
+
+&pmi8998_pdphy {
+	vbus-supply = <&smb2_vbus>;
+};
